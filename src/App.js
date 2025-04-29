@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
-import AppFooter from './components/shared/AppFooter';
+// import AppFooter from './components/shared/AppFooter';
 import AppHeader from './components/shared/AppHeader';
 import './css/App.css';
 import AnimatedText from "./components/AnimatedText.jsx"
@@ -59,7 +59,7 @@ function App() {
               className="w-full h-full object-cover"
             />
             <div className='absolute top-40 justify-center  w-full h-full flex flex-col'>
-              <div>
+              <div style={{fontSize: "70px"}} className="text-center text-white font-bold">
                 <IntroText />
               </div>
             </div>
@@ -79,7 +79,9 @@ function App() {
 
               
 
-              <div className=" bg-black transition duration-300">
+              <div className=" bg-black transition duration-300"
+                style={{backgroundColor : 'black'}}
+              >
                 <Router>
                   <ScrollToTop />
                   <AppHeader />

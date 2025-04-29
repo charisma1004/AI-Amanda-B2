@@ -5,6 +5,11 @@
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
 */
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 *,
 ::before,
 ::after {
@@ -980,35 +985,35 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .hover\:bg-indigo-600:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(79 70 229  var(--tw-bg-opacity));
+  background-color: rgb(79 70 229 var(--tw-bg-opacity));
 }
 .hover\:bg-ternary-dark:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(30 56 81  var(--tw-bg-opacity));
+  background-color: rgb(30 56 81 var(--tw-bg-opacity));
 }
 .hover\:bg-indigo-500:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(99 102 241  var(--tw-bg-opacity));
+  background-color: rgb(99 102 241 var(--tw-bg-opacity));
 }
 .hover\:bg-gray-100:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246  var(--tw-bg-opacity));
+  background-color: rgb(243 244 246 var(--tw-bg-opacity));
 }
 .hover\:text-indigo-500:hover {
   --tw-text-opacity: 1;
-  color: rgb(99 102 241  var(--tw-text-opacity));
+  color: rgb(99 102 241 var(--tw-text-opacity));
 }
 .hover\:text-primary-dark:hover {
   --tw-text-opacity: 1;
-  color: rgb(13 36 56  var(--tw-text-opacity));
+  color: rgb(13 36 56 var(--tw-text-opacity));
 }
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255  var(--tw-text-opacity));
+  color: rgb(255 255 255 var(--tw-text-opacity));
 }
 .hover\:text-indigo-600:hover {
   --tw-text-opacity: 1;
-  color: rgb(79 70 229  var(--tw-text-opacity));
+  color: rgb(79 70 229 var(--tw-text-opacity));
 }
 .hover\:text-gray-400:hover {
   --tw-text-opacity: 1;
@@ -1026,7 +1031,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-decoration-line: underline;
 }
 .hover\:shadow-xl:hover {
-  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0  0.1), 0 8px 10px -6px rgb(0 0 0  0.1);
   --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
@@ -1041,82 +1046,82 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .focus\:ring-indigo-900:focus {
   --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(49 46 129 / var(--tw-ring-opacity));
+  --tw-ring-color: rgb(49 46 129  var(--tw-ring-opacity));
 }
 .dark .dark\:border-ternary-dark {
   --tw-border-opacity: 1;
-  border-color: rgb(30 56 81 / var(--tw-border-opacity));
+  border-color: rgb(30 56 81  var(--tw-border-opacity));
 }
 .dark .dark\:border-secondary-dark {
   --tw-border-opacity: 1;
-  border-color: rgb(16 45 68 / var(--tw-border-opacity));
+  border-color: rgb(16 45 68  var(--tw-border-opacity));
 }
 .dark .dark\:border-primary-dark {
   --tw-border-opacity: 1;
-  border-color: rgb(13 36 56 / var(--tw-border-opacity));
+  border-color: rgb(13 36 56  var(--tw-border-opacity));
 }
 .dark .dark\:bg-primary-dark {
   --tw-bg-opacity: 1;
-  background-color: rgb(13 36 56 / var(--tw-bg-opacity));
+  background-color: rgb(13 36 56  var(--tw-bg-opacity));
 }
 .dark .dark\:bg-ternary-dark {
   --tw-bg-opacity: 1;
-  background-color: rgb(30 56 81 / var(--tw-bg-opacity));
+  background-color: rgb(30 56 81  var(--tw-bg-opacity));
 }
 .dark .dark\:bg-gray-200 {
   --tw-bg-opacity: 1;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+  background-color: rgb(229 231 235  var(--tw-bg-opacity));
 }
 .dark .dark\:bg-secondary-dark {
   --tw-bg-opacity: 1;
-  background-color: rgb(16 45 68 / var(--tw-bg-opacity));
+  background-color: rgb(16 45 68  var(--tw-bg-opacity));
 }
 .dark .dark\:font-medium {
   font-weight: 500;
 }
 .dark .dark\:text-primary-light {
   --tw-text-opacity: 1;
-  color: rgb(247 248 252 / var(--tw-text-opacity));
+  color: rgb(247 248 252  var(--tw-text-opacity));
 }
 .dark .dark\:text-ternary-light {
   --tw-text-opacity: 1;
-  color: rgb(246 247 248 / var(--tw-text-opacity));
+  color: rgb(246 247 248  var(--tw-text-opacity));
 }
 .dark .dark\:text-secondary-dark {
   --tw-text-opacity: 1;
-  color: rgb(16 45 68 / var(--tw-text-opacity));
+  color: rgb(16 45 68  var(--tw-text-opacity));
 }
 .dark .dark\:text-secondary-light {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(255 255 255  var(--tw-text-opacity));
 }
 .dark .dark\:text-gray-400 {
   --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity));
+  color: rgb(156 163 175  var(--tw-text-opacity));
 }
 .dark .dark\:text-gray-200 {
   --tw-text-opacity: 1;
-  color: rgb(229 231 235 / var(--tw-text-opacity));
+  color: rgb(229 231 235  var(--tw-text-opacity));
 }
 .dark .dark\:hover\:bg-primary-light:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(247 248 252 / var(--tw-bg-opacity));
+  background-color: rgb(247 248 252  var(--tw-bg-opacity));
 }
 .dark .dark\:hover\:text-indigo-400:hover {
   --tw-text-opacity: 1;
-  color: rgb(129 140 248 / var(--tw-text-opacity));
+  color: rgb(129 140 248  var(--tw-text-opacity));
 }
 .dark .dark\:hover\:text-primary-light:hover {
   --tw-text-opacity: 1;
-  color: rgb(247 248 252 / var(--tw-text-opacity));
+  color: rgb(247 248 252  var(--tw-text-opacity));
 }
 .dark .dark\:hover\:text-indigo-300:hover {
   --tw-text-opacity: 1;
-  color: rgb(165 180 252 / var(--tw-text-opacity));
+  color: rgb(165 180 252  var(--tw-text-opacity));
 }
 .dark .dark\:hover\:text-secondary-light:hover {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(255 255 255  var(--tw-text-opacity));
 }
 @media (min-width: 640px) {
 
