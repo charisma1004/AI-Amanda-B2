@@ -1,14 +1,11 @@
-import { Link } from 'react-router-dom';
-import AppBanner from '../components/shared/AppBanner';
-import ProjectsGrid from '../components/projects/ProjectsGrid';
-import { ProjectsProvider } from '../context/ProjectsContext';
-import FluidSimulation from '../components/FluidSimulation';
-import Button from '../components/reusable/Button';
-import TitleCanvas from '../components/TitleCanvas';
+// import { Link } from 'react-router-dom';
+// import FluidSimulation from '../components/FluidSimulation';
+// import Button from '../components/reusable/Button';
+// import TitleCanvas from '../components/TitleCanvas';
 import '../css/Title.css'
-import Title from '../components/Title';
+// import Title from '../components/Title';
 import Backbanner from "../images/banner1.png"
-import CanvasAnimation from '../components/CanvasAnimation';
+// import CanvasAnimation from '../components/CanvasAnimation';
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 
